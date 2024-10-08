@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cisco</title>
+</head>
+<body>
+    <h1>Formula de Campo magnético</h1>
+
+    <img src="img/Força magnetica.png" alt="Formula" width="400">
+    
+
+    <p class="dicas">
+    Q = carga pontual 
+    <br>
+    v = velocidade
+    <br> 
+    B = campo magnético
+    <br>
+    </p>
+
+    <div id="phisyc">
+        <label>Q</label>
+        <input type="number" id="Q">
+        <br>
+        <br>
+        <label>v</label>
+        <input type="number" id="v">
+        <br>
+        <br>
+        <label>B</label>
+        <input type="number" id="B">
+        <br>
+        <br>
+        <label>sen</label>
+        <input type="number" id="sen">
+        <br>
+        <br>
+        <button onclick="calcular1()">Calcular</button>       
+        <div id="resultados"></div>
+    </div>
+<br>
+<br>
+<br>
+    <h1>Formula de Campo eletrico</h1>
+    <img src="img/Formula.png" alt="Formula" width="400">
+    <p class="dicas">
+    F = Força 
+    <br>
+    K = Constante
+    <br> 
+    q1 = campo eletrico
+    <br>
+    q2 = campo eletrico
+    <br>
+    d = Distancia
+    </p>
+    <div id="phisyc">
+        <label>Q1</label>
+        <input type="number" id="Q1">
+        <br>
+        <br>
+        <label>Q2</label>
+        <input type="number" id="Q2">
+        <br>
+        <br>
+        <label>D</label>
+        <input type="number" id="D">
+        <button onclick="calcular()">Calcular</button>       
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
